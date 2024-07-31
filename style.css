@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0e4d7;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.flower {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.stem {
+  width: 10px;
+  height: 150px;
+  background-color: green;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.petal {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border-radius: 50%;
+}
+
+.petal1 {
+  top: -20px;
+  left: -15px;
+}
+.petal2 {
+  top: -20px;
+  left: 15px;
+}
+.petal3 {
+  top: 0px;
+  left: -30px;
+}
+.petal4 {
+  top: 0px;
+  left: 30px;
+}
+.petal5 {
+  top: 40px;
+  left: -15px;
+}
+
+.note {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
